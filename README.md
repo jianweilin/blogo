@@ -13,6 +13,22 @@ if you are writing Chinese, a Chinese version will be generate;
 Here is the screenshot of blogo.
 ![PicName](http://ofwzcunzi.bkt.clouddn.com/nYQZeGXPh6dFj1MS.png)
 
+
+## Usage
+
+blogo is very simple to use, just give your title, all the things will be done!
+
+```
+mv blogo /usr/bin
+blogo -title "your title of blog"
+```
+
+That's it, and your *.md file will generates in your current directory.
+However, you can also specific your directory by given `-path` option. For more usage, type:
+```
+blogo -h
+```
+
 ## Future Work
 
 Maybe this tool will becomes more intelligent by applying AI classifier and divided your article into different categories. This could be
